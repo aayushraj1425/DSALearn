@@ -1,0 +1,10 @@
+#O(n) time complexity and O(n) space complexity
+
+def Duplicate(arr):
+    st = set(arr)
+    return list(st)
+
+if __name__ == "__main__":
+    arr = [1, 2, 3, 2, 4, 5, 1, 6, 3]
+    result = Duplicate(arr)
+    print("Distinct elements are:", result)
